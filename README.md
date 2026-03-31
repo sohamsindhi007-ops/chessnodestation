@@ -1,3 +1,4 @@
 # chessnodestation
 making a chess nodestation for high intensity chess analsyis with a modified ryzen 5600G system for custom coolinga and arudino integration, focusing on thermal managment and squeezing max power along with arudino integration , using  arudino and python  integration to display chess metrics such as nodes/ second, depth , and eval bar, making python as a an executable for GUIs.also using LEDs for move classification via python bridging.integrataing arduino seamlessly in the system, making it truly like a high quality-chessnodestation
 Quick note for hackclub blueprint : thank you for helping me , i built a lot of grit during this project 
+also if you though wheres the ssd? whell imma pluck it out of my current laptop and put it in my PC :) and yes i will self fund monitor, also i will put an old HDD in my current laptop which i was about to throw
