@@ -23,15 +23,15 @@ void setup() {
   lcd.begin(16, 2);
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Chess Ready!");
+  lcd.print("Chess Ready!");- to sho wlcd text
   lcd.setCursor(0, 1);
   lcd.print("Waiting...");
 
   // LED pins
-  pinMode(LED_RED,    OUTPUT);
-  pinMode(LED_YELLOW, OUTPUT);
-  pinMode(LED_GREEN,  OUTPUT);
-  pinMode(LED_BLUE,   OUTPUT);
+  pinMode(LED_RED,    OUTPUT);- for bluhnders
+  pinMode(LED_YELLOW, OUTPUT);- for mistakes/inaccuracies
+  pinMode(LED_GREEN,  OUTPUT);- for good moves 
+  pinMode(LED_BLUE,   OUTPUT);- for brilliant moves
 
   // All LEDs off at start
   digitalWrite(LED_RED,    LOW);
